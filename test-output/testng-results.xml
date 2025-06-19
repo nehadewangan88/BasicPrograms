@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-17T09:20:56 IST" name="Integer Operations" finished-at="2025-06-17T09:20:56 IST" duration-ms="131">
+    <groups>
+    </groups>
+    <test started-at="2025-06-17T09:20:56 IST" name="Integer Normal" finished-at="2025-06-17T09:20:56 IST" duration-ms="56">
+      <class name="TestNgPractice.IntOperations">
+        <test-method signature="DivisionNumbers()[pri:0, instance:TestNgPractice.IntOperations@3e27ba32]" started-at="2025-06-17T09:20:56 IST" name="DivisionNumbers" finished-at="2025-06-17T09:20:56 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DivisionNumbers -->
+        <test-method signature="ModNumbers()[pri:0, instance:TestNgPractice.IntOperations@3e27ba32]" started-at="2025-06-17T09:20:56 IST" name="ModNumbers" finished-at="2025-06-17T09:20:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModNumbers -->
+        <test-method signature="MultiplicationNumbers()[pri:0, instance:TestNgPractice.IntOperations@3e27ba32]" started-at="2025-06-17T09:20:56 IST" name="MultiplicationNumbers" finished-at="2025-06-17T09:20:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplicationNumbers -->
+        <test-method signature="addNumbers()[pri:0, instance:TestNgPractice.IntOperations@3e27ba32]" started-at="2025-06-17T09:20:56 IST" name="addNumbers" finished-at="2025-06-17T09:20:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNumbers -->
+        <test-method signature="substractionNumbers()[pri:0, instance:TestNgPractice.IntOperations@3e27ba32]" started-at="2025-06-17T09:20:56 IST" name="substractionNumbers" finished-at="2025-06-17T09:20:56 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- substractionNumbers -->
+      </class> <!-- TestNgPractice.IntOperations -->
+    </test> <!-- Integer Normal -->
+    <test started-at="2025-06-17T09:20:56 IST" name="Integer Streams" finished-at="2025-06-17T09:20:56 IST" duration-ms="13">
+      <class name="TestNgPractice.TestStreamProg">
+        <test-method signature="MultiplyAll()[pri:0, instance:TestNgPractice.TestStreamProg@45d84a20]" started-at="2025-06-17T09:20:56 IST" name="MultiplyAll" finished-at="2025-06-17T09:20:56 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultiplyAll -->
+        <test-method signature="findMax()[pri:0, instance:TestNgPractice.TestStreamProg@45d84a20]" started-at="2025-06-17T09:20:56 IST" name="findMax" finished-at="2025-06-17T09:20:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findMax -->
+        <test-method signature="findMin()[pri:0, instance:TestNgPractice.TestStreamProg@45d84a20]" started-at="2025-06-17T09:20:56 IST" name="findMin" finished-at="2025-06-17T09:20:56 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findMin -->
+      </class> <!-- TestNgPractice.TestStreamProg -->
+    </test> <!-- Integer Streams -->
+  </suite> <!-- Integer Operations -->
+</testng-results>
