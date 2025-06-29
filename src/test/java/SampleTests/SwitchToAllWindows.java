@@ -35,6 +35,8 @@ public class SwitchToAllWindows {
 			link.click();
 		}
 		Set<String> allWindows = driver.getWindowHandles();
+		
+		 driver.switchTo().parentFrame();
 		Iterator itr = allWindows.iterator();
 		ArrayList<String> windowList = new ArrayList<String>();
 		while(itr.hasNext())

@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>SampleSelenium</groupId>
-  <artifactId>SampleSelenium</artifactId>
+  <groupId>BasicSelenium</groupId>
+  <artifactId>BasicSelenium</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
   	<!-- https://mvnrepository.com/artifact/org.webjars.npm/selenium-webdriver -->
@@ -14,20 +14,13 @@
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>4.32.0</version>
+    <version>4.33.0</version>
 </dependency>
-		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.11.0</version>
-    <scope>test</scope>
-</dependency>
-<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-java</artifactId>
-    <version>7.23.0</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
 <dependency>
@@ -41,12 +34,10 @@
     <artifactId>mysql-connector-java</artifactId>
     <version>8.0.33</version>
 </dependency>
+
+
 	<!-- https://mvnrepository.com/artifact/io.github.qsy7.java.modules.browser.drivers/chromedriver -->
-<dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-chrome-driver</artifactId>
-    <version>4.32.0</version>
-</dependency>
+
 	
 		
   </dependencies>
